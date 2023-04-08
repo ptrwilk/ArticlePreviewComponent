@@ -1,0 +1,125 @@
+@import url('../../colors.css');
+
+.wrapper{
+    padding: 1.7rem;
+}
+
+.wrapper.huge-padding{
+    padding: 6rem;
+}
+
+.container{
+    border-radius: .6rem;
+    overflow: hidden;
+    background: var(--white);
+}
+
+.container .img-drawers{
+    width: 100%;
+    object-fit: cover;
+}
+
+.container .content{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 1rem;
+}
+
+.container .content .title{
+    font-weight: 700;
+    color: var(--very-dark-grayish-blue);
+}
+
+.container .content .text{
+    margin-top: 1rem;
+    color: var(--desaturated-dark-blue);
+}
+
+.container .content .user-detail{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.container .content .user-detail .name{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    gap: .3rem;
+    margin-left: 1rem;
+    font-weight: 700;
+    color: var(--very-dark-grayish-blue);
+}
+
+.container .content .user-detail .name .date{
+    font-weight: 500;
+    color: var(--desaturated-dark-blue);
+}
+
+.container .content .user-detail .btn-icon{
+    width: 30px;
+    height: 30px;
+    background: var(--light-grayish-blue);
+    color: var(--desaturated-dark-blue);
+}
+
+.container .content .user-detail .btn-icon.active{
+    background: var(--desaturated-dark-blue);
+    color: var(--white);
+}
+
+.container .content .user-detail .btn-icon svg{
+    width: 16px;
+}
+
+.container .content .user-detail .share-container{
+    position: relative;
+
+}
+
+.container .content .user-detail .share-container .popover{
+    position: absolute;
+    bottom: 40px;
+
+}
+
+.popper::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    margin: 0 auto 5px;
+    border-style: solid;
+    border-width: 12px 12px 0 12px;
+    border-color: var(--very-dark-grayish-blue) transparent transparent transparent;
+}
+
+@media (min-width : 425px) {
+    .container{
+        max-width: 500px;
+    }
+
+    .container .content .title{
+        font-size: 17px;
+    }
+}
+
+@media (min-width : 768px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        max-width: 700px;
+    }
+
+    .container .content .title{
+        font-size: 20px; 
+    }
+
+    .container .content .text{
+        flex: 1 0;
+    }
+
+    .container .content .user-detail{
+
+    }
+}

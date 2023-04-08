@@ -1,6 +1,10 @@
+@import url('./colors.css');
+
 .app{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    /* padding: 1.7rem; */
+    background: var(--light-grayish-blue);
 }
