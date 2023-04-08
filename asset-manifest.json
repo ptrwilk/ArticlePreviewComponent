@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ArticlePreviewComponent/static/css/main.24082648.css",
+    "main.js": "/ArticlePreviewComponent/static/js/main.44e22c98.js",
+    "static/js/787.b0909db2.chunk.js": "/ArticlePreviewComponent/static/js/787.b0909db2.chunk.js",
+    "static/media/drawers.jpg": "/ArticlePreviewComponent/static/media/drawers.631135b079e9f19bada8.jpg",
+    "index.html": "/ArticlePreviewComponent/index.html",
+    "main.24082648.css.map": "/ArticlePreviewComponent/static/css/main.24082648.css.map",
+    "main.44e22c98.js.map": "/ArticlePreviewComponent/static/js/main.44e22c98.js.map",
+    "787.b0909db2.chunk.js.map": "/ArticlePreviewComponent/static/js/787.b0909db2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24082648.css",
+    "static/js/main.44e22c98.js"
+  ]
+}
